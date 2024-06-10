@@ -1,0 +1,125 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(90deg, lightskyblue, white);
+}
+
+.container {
+  height: 95%;
+  width: 95%;
+}
+
+.BodyTitle {
+  position: relative;
+  margin: 4% 4%;
+  height: 190px;
+  width: 80px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 225%;
+  font-weight: bold;
+  text-align: left;
+}
+
+.FormBody {
+  position: absolute;
+  display: inline-block;
+  margin: -15% 30%;
+  height: 375px;
+  width: 725px;
+  outline: 5px white outset;
+  border-radius: 10px;
+}
+
+.FormTitle {
+  position: relative;
+  margin-top: 3%;
+  height: 35px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Inputs {
+  position: relative;
+  margin: 2% 50px;
+  padding: 10px 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: black;
+  border: 1px solid black;
+  font-family: Arial, Helvetica, fantasy;
+  font-size: 110%;
+  text-align: left;
+}
+
+.Inputs:focus {
+  outline: none;
+}
+
+.Labels {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+#LFN {
+  margin: -4px 60px;
+}
+
+#LLN {
+  margin: 67px -366px;
+}
+
+#LE {
+  margin: 68px -366px;
+}
+
+#LP {
+  margin: 68px -366px;
+}
+
+#EnterSubmit {
+  position: absolute;
+  margin: 23px 80px;
+  padding: 7px 25px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#VisiblePass {
+  position: absolute;
+  margin: 15px -96px;
+  padding: 10px 14px;
+  background: transparent;
+  border-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+#LoginA {
+  position: absolute;
+  margin: -2px 55%;
+  width: 50%;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+#LoginB {
+  text-decoration: none;
+}
+
+#LoginB:hover {
+  text-decoration: underline;
+}

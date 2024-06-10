@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>JKR GLASS AND ALUMINUM SERVICE</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="BodyTitle">JKR GLASS AND ALUMINUM SERVICE</div>
+      <form action="register.php" method="POST">
+        <div class="FormBody">
+          <div class="FormTitle">Registration Form</div>
+          <label class="Labels" id="LFN">First Name</label>
+          <input type="text" class="Inputs" name="firstName" placeholder="Enter First Name">
+          <label class="Labels" id="LLN">Last Name</label>
+          <input type="text" class="Inputs" name="lastName" placeholder="Enter Last Name">
+          <label class="Labels" id="LE">Email</label>
+          <input type="email" class="Inputs" name="email" placeholder="Enter Email">
+          <label class="Labels" id="LP">Password</label>
+          <input type="password" class="Inputs" id="InputPass" name="password" placeholder="Enter Password">
+          <input type="button" id="VisiblePass" value="O" onclick="SeePass()">
+          <input type="submit" id="EnterSubmit" value="Sumbit">
+          <p id="LoginA">Already have an Account? Try <a href="#" id="LoginB" onclick="">Login In?</a></p>
+        </div>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
